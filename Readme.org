@@ -1,0 +1,10 @@
+* Nix Environments
+
+Inspired by [[https://github.com/the-nix-way/dev-templates/][the-nix-way/dev-templates]], but written from scratch and heavily opinionated.
+
+To initialize use e.g.
+
+#+begin_src bash
+  # Initialize in the current project
+  nix flake init --template github:mruediger/nix-environments#rust
+#+end_src
